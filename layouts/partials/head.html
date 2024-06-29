@@ -1,0 +1,9 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{ with .Site.Title}}<title>{{.}}</title>{{end}}
+  {{ with .Site.Params.favicon }}<link rel="shortcut icon" href="/{{.}}">{{ end }}
+
+  <link rel="stylesheet" href="{{ "/css/logo-only.css" | absURL }}">
+</head>

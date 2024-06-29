@@ -1,0 +1,15 @@
+baseURL = "https://example.com/"
+languageCode = "en"
+language = "en"
+theme = "hugo-logo-only"
+title = "Logo Page"
+
+_merge = "none"
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+logo = "img/logo.png"
+favicon = "img/logo.png"

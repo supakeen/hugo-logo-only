@@ -1,0 +1,18 @@
+name = "hugo-logo-only"
+license = "MIT"
+licenselink = "https://github.com/supakeen/hugo-logo-only/blob/master/LICENSE"
+description = "A logo-only theme."
+homepage = "https://github.com/supakeen/hugo-logo-only/"
+tags = ["minimal", "landingpage"]
+features = ["lightweight"]
+min_version = "0.60"
+
+[author]
+name = "Simon de Vlieger"
+homepage = "https://supakeen.com/"
+
+# If porting an existing theme
+[original]
+name = ""
+homepage = ""
+repo = ""
